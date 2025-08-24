@@ -1,3 +1,5 @@
+import sys
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
@@ -12,7 +14,7 @@ class Driver:
             self.driver = self.__get_chrome_driver()
         else:
             # add as many drivers as your app needs
-            pass
+            sys.exit(f"The browser {browser} is not implemented. Please implement and try again.")
         self.driver.implicitly_wait(3)
         self.driver.get('https://www.saucedemo.com/')
 
