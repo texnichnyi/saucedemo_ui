@@ -1,4 +1,5 @@
-ControlUp - first task (UI)
+#ControlUp - first task (UI)
+
 Please install chrome to run a tests with next command
 
 ```bash
