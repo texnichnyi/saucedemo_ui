@@ -22,10 +22,3 @@ class Locators:
         Building Locator object by class name selector
         """
         return Locators.Locator(By.CSS_SELECTOR, value)
-
-    @staticmethod
-    def xpath(value: str) -> Locator:
-        """
-        Building Locator object by xpath selector
-        """
-        return Locators.Locator(By.XPATH, value)

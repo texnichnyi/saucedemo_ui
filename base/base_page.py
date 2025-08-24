@@ -18,7 +18,6 @@ class BasePage:
         self.driver = driver
         self.locator_id = Locators.id
         self.locator_css_selector = Locators.css_selector
-        self.locator_xpath = Locators.xpath
 
     def find_element(self, locator: Locators.Locator) -> WebElement:
         return self.driver.find_element(locator.by, locator.value)
