@@ -1,11 +1,5 @@
-import os
 from typing import List
-
-from wait_for import wait_for
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webelement import WebElement
-
 from base.locator import Locators
 
 
